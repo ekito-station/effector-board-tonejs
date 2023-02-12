@@ -1,0 +1,42 @@
+.effector-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    float: left;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+}
+.line {
+    float: left;
+    width: 50px;
+    height: 1.5px;
+    background-color: black;
+}
+.effector {
+    color: white;
+    background-color: rgb(128, 128, 128);
+}
+.effector:hover {
+    opacity: 0.8;
+}
+
+#synth {
+    border-style: solid;
+}
+
+#speaker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+}
+
+img {
+    width: 70px;
+    height: 70px;
+}
